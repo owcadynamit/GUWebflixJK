@@ -1,0 +1,131 @@
+html {
+    height: 100%;
+}
+/*  */
+body{
+    min-height: 100%;
+    display: grid;
+	background-color: #0D0000;
+}
+/*  */
+footer{
+    background: #FF7900;
+    margin-top: auto;
+}
+/*  */
+#nav1{
+    background-color: #240046;
+}
+/*  */
+#nav2{
+    background-color:  #FF7900;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: orange;
+}
+
+/* selected link */
+a:active {
+    color: orange;
+}
+
+
+/* user details change buttons */
+#button1{
+    color: #240046;
+    background-color: #FF7900;
+}
+
+#background1{
+    background-color: white;
+}
+
+#background2{
+    background-color: black;
+}
+
+/* fonts */
+@font-face {
+    font-family: sans;
+    src: url("fonts/NotoSans.ttf");
+}
+@font-face {
+    font-family: syncopate;
+    src: url("fonts/Syncopate.ttf");
+}
+/* headers */
+h1{
+    font-family: syncopate;
+    font-size: 60px;
+	font-weight: bold;
+    color: white;
+}
+/* logo */
+h3{
+    font-family: syncopate;
+    font-size: 20px;
+	font-weight: bold;
+    color: white;
+}
+/* movie labels */
+h5, h4{
+    font-family: syncopate;
+    font-size: 22px;
+	font-weight: bold;
+    color: #5A199B;
+}
+/* normal text e.g. movie description changed to white */
+p{
+	font-family: sans;
+    font-size: 20px;
+    color: white;
+}
+
+/*"about" text as quotes*/
+q{
+	font-family: sans;
+    font-size: 20px;
+    color: black;
+}
+
+h6{
+    font-family: sans;
+    font-size: 20px;
+    color: white;
+}
+/* all the register form labels text */
+label{
+    font-family: sans;
+    font-size: 30px;
+    color: white;
+}
+
+#text1{
+	font-family: sans;
+    font-size: 20px;
+    color: #FF7900;
+}
+/* navbar */
+#text2{
+    font-family: sans;
+    font-size: 20px;
+    color: white;
+}
+/* additional entry */
+#text3{
+    font-family: sans;
+    font-size: 20px;
+    color: pink;
+}
